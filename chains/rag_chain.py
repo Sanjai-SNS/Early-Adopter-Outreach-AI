@@ -1,6 +1,6 @@
 # chains/rag_chain.py
 
-from langchain_community.tools.duckduckgo_search import DuckDuckGoSearchRun
+from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
